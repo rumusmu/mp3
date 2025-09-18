@@ -4,6 +4,11 @@ Online tool for adding chapters and other `id3` tags to audio files such as podc
 
 Uses just HTML/CSS and vanilla JS. No server-side code, so it can be run by just starting a webserver in the repo directory (e.g. `python3 -m http.server`). To avoid duplicating images, the tool uses hashes made with subtlecrypto. This feature is only available in https and `localhost`.
 
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https%3A%2F%2Fgithub.com%2Frumusmu%2Fmp3)
+
+
+
 Built using [node-id3](https://github.com/Zazama/node-id3), [browserify](https://browserify.org/), [wavesurfer.js](https://wavesurfer-js.org/), and [Vidstack Player](https://vidstack.io/docs). The merge app uses [ffmpeg.wasm](https://ffmpegwasm.netlify.app/).
 
 Feedback, bug reports, and pull requests are very welcome.
